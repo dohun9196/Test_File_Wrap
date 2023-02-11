@@ -1,0 +1,63 @@
+#section01 {
+    height: 200vh;
+    background: #f9f9f9;
+    padding: 90px 0 0 0;
+}
+
+#section01 .inner h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+    padding: 50px 0;
+}
+
+#section01 .main_slide figure {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#section01 .main_slide figure span {
+    transform: translateY(-80px);
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+#section01 .main_slide figure p {
+    transform: translatex(-80px);
+    margin: 0 0 10px 0;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+#section01 .main_slide figure strong {
+    transform: translateY(80px);
+    display: block;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+
+#section01 .main_slide figure.slick-active span {
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+#section01 .main_slide figure.slick-active p {
+    transform: translatex(0px);
+    opacity: 1;
+    transition-delay: 2s;
+}
+
+#section01 .main_slide figure.slick-active strong {
+    transform: translateY(0px);
+    opacity: 1;
+    transition-delay: 2.5s;
+}
