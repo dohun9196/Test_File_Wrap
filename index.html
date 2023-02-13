@@ -7,18 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bloom</title>
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/basic.css">
     <link rel="stylesheet" href="./css/font.css">
 
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
-
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/main.js"></script>
 </head>
 
 <body>
@@ -32,10 +26,8 @@
             <div class="inner">
                 <nav class="gnb">
                     <ul class="gnb_menu">
-                        <li><a href="#!">메뉴01</a></li>
-                        <li><a href="#!">메뉴02</a></li>
-                        <li><a href="#!">메뉴03</a></li>
-                        <li><a href="#!">메뉴04</a></li>
+                        <li><a href="#!">Home</a></li>
+                        <li><a href="#!">Hospital</a> </li>
                     </ul>
                 </nav>
             </div>
@@ -43,39 +35,92 @@
                 <li><a href="#!">Login</a></li>
                 <li><a href="#!">Sign Up</a></li>
             </div>
-            <div class="bar">
-                <a href="#!">
-                    <i class="xi-bars"></i>
-                </a>
-                <div class="bar_open">
-                    <p>그냥 넣어봤음</p>
-                </div>
-            </div>
         </header>
 
         <main>
             <section id="section01">
                 <div class="inner">
-                    <h2>슬릭js 활용 애니메이션 넣기</h2>
+                    <strong>안녕하세요</strong>
+                    <strong>블룸을 소개합니다</strong>
                 </div>
+            </section>
 
-                <div class="main_slide">
-                    <figure class="slide_img01">
-                        <span>ㅓㅜㅑ</span>
-                        <p>움직임이</p>
-                        <strong>예사롭지 않은데?</strong>
+            <section id="section02">
+                <div class="inner">
+                    <figure class="section02_img">
+                        <a href="/">
+                            <img src="./img/lineup_003.png" alt="">
+                        </a>
                     </figure>
-                    <figure class="slide_img02">
-                        <span>위에서 내려오고</span>
-                        <p>왼쪽에서 나오고</p>
-                        <strong>아래에서 올라오고</strong>
-                    </figure>
+                    <div class="section02_desc">
+                        <h2>오늘의 꽃</h2>
+                        <span>튤립</span>
+                        <p id="floriography">
+                            튤립은 영원한 사랑, 불변한 사랑이라는 뜻입니다. 사실 구라입니다.
+                            왜냐면 제가 방금 지어냈기때문이죠 하하 대충 이런식으로 꽃의 설명을 왈랄라 적어봅시다
+                            사진도 튤립이 아닙니다. 테스트로 암꺼나 넣었습니다. 수고하세요
+                        </p>
+                    </div>
                 </div>
+            </section>
 
+            <section id="section03">
+                <div class="inner">
+                    <h1>안녕하세요</h1>
+                    <h1>블룸을 소개합니다</h1>
+                </div>
+            </section>
+
+            <section id="section04">
+                <div class="inner">
+                    <div id="left-box">
+                        <h2>마음 쑥쑥</h2>
+                        <fieldset>
+                            <div class="team-member">
+                                <div class="members">
+                                    <img src="./img/wh.png" alt="">
+                                    <legend>완희</legend>
+                                </div>
+                                <div class="members">
+                                    <img src="./img/jy.jpg" alt="">
+                                    <legend>주용</legend>
+                                </div>
+                                <div class="members">
+                                    <img src="./img/cw.jpg" alt="">
+                                    <legend>창우</legend>
+                                </div>
+                                <div class="members">
+                                    <img src="./img/gy.png" alt="">
+                                    <legend>가영</legend>
+                                </div>
+                                <div class="members">
+                                    <img src="./img/hi.png" alt="">
+                                    <legend>혜인</legend>
+                                </div>
+
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
             </section>
         </main>
 
-        <footer id="footer"></footer>
+        <div class="main_side_nav">
+            <ul class="page_nav">
+                <li class="active">
+                    <a href="#!" class="on active">홈</a>
+                </li>
+                <li class="active">
+                    <a href="#!" class="on active">오늘의 꽃</a>
+                </li>
+                <li class="active">
+                    <a href="#!" class="on active">커뮤니티</a>
+                </li>
+                <li class="active">
+                    <a href="#!" class="on active">Bloom</a>
+                </li>
+            </ul>
+        </div>
 </body>
 
 </html>
