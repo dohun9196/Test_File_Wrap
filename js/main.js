@@ -1,13 +1,13 @@
 $(function () {
-    $('#header .bar a').on('click', function () {
-        $('#header .bar').toggleClass('on');
+
+    $('.main_side_nav .page_nav li a').click(function () {
+        // $('.main_side_nav .page_nav li a').removeClass('on');
+        // $(this).addClass('on');
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+        return false;
+
+
     });
-    $('#section01 .main_slide').slick({
-        dot: false,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        arrows: false,
-        pauseOnFocus: false,
-        pauseOnHover: false,
-    })
 });
